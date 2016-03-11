@@ -26,7 +26,6 @@ type
 
   TForm1 = class(TForm)
     ImageList1: TImageList;
-    Splitter1: TSplitter;
     tvMain: TTreeView;
     procedure ControllerUSBArrival(Sender: TObject);
     procedure ControllerUSBRemove(Sender: TObject);

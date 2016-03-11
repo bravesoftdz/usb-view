@@ -1,20 +1,21 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
-    <Version Value="7"/>
     <General>
       <MainUnit Value="0"/>
-      <TargetFileExt Value=".exe"/>
-      <Icon Value="0"/>
       <UseXPManifest Value="True"/>
-      <ActiveEditorIndexAtStart Value="1"/>
+      <Icon Value="0"/>
     </General>
     <VersionInfo>
-      <ProjectVersion Value=""/>
       <Language Value=""/>
       <CharSet Value=""/>
+      <StringTable ProductVersion=""/>
     </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="default" Default="True"/>
+    </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
       <IgnoreBinaries Value="False"/>
@@ -27,348 +28,346 @@
         <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
       </local>
     </RunParams>
-    <RequiredPackages Count="1">
+    <RequiredPackages Count="2">
       <Item1>
-        <PackageName Value="LCL"/>
+        <PackageName Value="fpusb"/>
       </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
     </RequiredPackages>
-    <Units Count="28">
+    <Units Count="31">
       <Unit0>
         <Filename Value="usbview.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="usbview"/>
-        <CursorPos X="5" Y="8"/>
-        <TopLine Value="1"/>
-        <EditorIndex Value="9"/>
-        <UsageCount Value="51"/>
+        <EditorIndex Value="3"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="umaintree.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uMainTree"/>
-        <CursorPos X="24" Y="120"/>
-        <TopLine Value="120"/>
-        <EditorIndex Value="0"/>
-        <UsageCount Value="51"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="83"/>
+        <CursorPos Y="29"/>
+        <UsageCount Value="52"/>
         <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="Neuer Ordner\usbhlib.pas"/>
-        <IsPartOfProject Value="True"/>
         <UnitName Value="USBHLib"/>
-        <CursorPos X="1" Y="328"/>
         <TopLine Value="288"/>
+        <CursorPos Y="328"/>
         <UsageCount Value="51"/>
       </Unit2>
       <Unit3>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\win\wininc\redef.inc"/>
         <CursorPos X="18" Y="21"/>
-        <TopLine Value="1"/>
         <UsageCount Value="9"/>
       </Unit3>
       <Unit4>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\win\wininc\base.inc"/>
-        <CursorPos X="12" Y="99"/>
         <TopLine Value="79"/>
+        <CursorPos X="12" Y="99"/>
         <UsageCount Value="9"/>
       </Unit4>
       <Unit5>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\win\wininc\defines.inc"/>
-        <CursorPos X="6" Y="1685"/>
         <TopLine Value="1665"/>
+        <CursorPos X="6" Y="1685"/>
         <UsageCount Value="9"/>
       </Unit5>
       <Unit6>
         <Filename Value="uUsb.pas.old"/>
-        <CursorPos X="94" Y="206"/>
         <TopLine Value="184"/>
-        <UsageCount Value="11"/>
+        <CursorPos X="94" Y="206"/>
         <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="11"/>
       </Unit6>
       <Unit7>
         <Filename Value="uusb.pas"/>
         <UnitName Value="uUsb"/>
-        <CursorPos X="1" Y="68"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="56"/>
-        <EditorIndex Value="1"/>
+        <CursorPos Y="68"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
       </Unit7>
       <Unit8>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\objpas\classes\classesh.inc"/>
-        <CursorPos X="17" Y="256"/>
         <TopLine Value="236"/>
+        <CursorPos X="17" Y="256"/>
         <UsageCount Value="9"/>
       </Unit8>
       <Unit9>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\objpas\classes\lists.inc"/>
-        <CursorPos X="3" Y="558"/>
         <TopLine Value="556"/>
+        <CursorPos X="3" Y="558"/>
         <UsageCount Value="9"/>
       </Unit9>
       <Unit10>
         <Filename Value="uusbwinimplementation.unc"/>
-        <IsPartOfProject Value="True"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
-        <UsageCount Value="47"/>
         <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="47"/>
       </Unit10>
       <Unit11>
         <Filename Value="uusbwinimplementation.inc"/>
-        <CursorPos X="20" Y="456"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="442"/>
-        <EditorIndex Value="6"/>
+        <CursorPos X="20" Y="456"/>
         <UsageCount Value="22"/>
-        <Loaded Value="True"/>
       </Unit11>
       <Unit12>
         <Filename Value="uusb.pas.bak"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
-        <UsageCount Value="9"/>
         <SyntaxHighlighter Value="None"/>
+        <UsageCount Value="9"/>
       </Unit12>
       <Unit13>
         <Filename Value="uusbwintypes.inc"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="32" Y="31"/>
-        <TopLine Value="1"/>
-        <EditorIndex Value="8"/>
         <UsageCount Value="20"/>
-        <Loaded Value="True"/>
       </Unit13>
       <Unit14>
         <Filename Value="..\..\..\Programme\lazarus\fpc\2.2.5\source\rtl\win\wininc\ascdef.inc"/>
-        <CursorPos X="10" Y="387"/>
         <TopLine Value="367"/>
+        <CursorPos X="10" Y="387"/>
         <UsageCount Value="10"/>
       </Unit14>
       <Unit15>
         <Filename Value="..\..\..\Programme\lazarus\lcl\comctrls.pp"/>
         <UnitName Value="ComCtrls"/>
-        <CursorPos X="27" Y="1981"/>
         <TopLine Value="1972"/>
+        <CursorPos X="27" Y="1981"/>
         <UsageCount Value="10"/>
       </Unit15>
       <Unit16>
         <Filename Value="..\..\..\Programme\lazarus\lcl\include\treeview.inc"/>
-        <CursorPos X="1" Y="372"/>
         <TopLine Value="352"/>
+        <CursorPos Y="372"/>
         <UsageCount Value="11"/>
       </Unit16>
       <Unit17>
         <Filename Value="..\..\..\Programme\lazarus\lcl\controls.pp"/>
         <UnitName Value="Controls"/>
-        <CursorPos X="3" Y="162"/>
         <TopLine Value="142"/>
+        <CursorPos X="3" Y="162"/>
         <UsageCount Value="10"/>
       </Unit17>
       <Unit18>
         <Filename Value="setupapi.pas"/>
-        <UnitName Value="setupapi"/>
-        <CursorPos X="6" Y="749"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="732"/>
-        <EditorIndex Value="7"/>
+        <CursorPos X="6" Y="749"/>
         <UsageCount Value="12"/>
-        <Loaded Value="True"/>
       </Unit18>
       <Unit19>
         <Filename Value="uusblibusbimplementation.inc"/>
-        <IsPartOfProject Value="True"/>
-        <CursorPos X="1" Y="152"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="85"/>
-        <EditorIndex Value="3"/>
+        <CursorPos Y="152"/>
         <UsageCount Value="25"/>
-        <Loaded Value="True"/>
       </Unit19>
       <Unit20>
         <Filename Value="..\..\..\DOKUME~1\Ulrich\LOKALE~1\Temp\Rar$DI00.172\libusb.pp"/>
-        <UnitName Value="libusb"/>
         <CursorPos X="9" Y="7"/>
-        <TopLine Value="1"/>
         <UsageCount Value="10"/>
       </Unit20>
       <Unit21>
         <Filename Value="libusb.pp"/>
-        <UnitName Value="libusb"/>
-        <CursorPos X="1" Y="1"/>
-        <TopLine Value="1"/>
         <UsageCount Value="10"/>
       </Unit21>
       <Unit22>
         <Filename Value="libusb.pas"/>
-        <UnitName Value="libusb"/>
+        <EditorIndex Value="-1"/>
         <CursorPos X="14" Y="6"/>
-        <TopLine Value="1"/>
-        <EditorIndex Value="2"/>
         <UsageCount Value="13"/>
-        <Loaded Value="True"/>
       </Unit22>
       <Unit23>
         <Filename Value="libusb_win.inc"/>
-        <CursorPos X="1" Y="246"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="367"/>
-        <EditorIndex Value="5"/>
+        <CursorPos Y="246"/>
         <UsageCount Value="11"/>
-        <Loaded Value="True"/>
       </Unit23>
       <Unit24>
         <Filename Value="..\..\..\Prometheus\TCS\multiprog\source\uusbwinimplementation.inc"/>
-        <CursorPos X="1" Y="1"/>
         <TopLine Value="221"/>
         <UsageCount Value="10"/>
       </Unit24>
       <Unit25>
         <Filename Value="cfgmgr32.pas"/>
         <UnitName Value="CfgMgr32"/>
-        <CursorPos X="21" Y="27"/>
         <TopLine Value="16"/>
+        <CursorPos X="21" Y="27"/>
         <UsageCount Value="10"/>
       </Unit25>
       <Unit26>
         <Filename Value="libusb_unix.inc"/>
-        <CursorPos X="1" Y="265"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="133"/>
-        <EditorIndex Value="4"/>
+        <CursorPos Y="265"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit26>
       <Unit27>
         <Filename Value="..\..\..\home\chris\lazarus\lcl\include\treeview.inc"/>
-        <CursorPos X="35" Y="76"/>
         <TopLine Value="60"/>
+        <CursorPos X="35" Y="76"/>
         <UsageCount Value="10"/>
       </Unit27>
+      <Unit28>
+        <Filename Value="lib-usb\uusb.pas"/>
+        <UnitName Value="uUsb"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="78"/>
+        <CursorPos X="5" Y="92"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="lib-usb\uusblibusbimplementation.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="160"/>
+        <CursorPos Y="175"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="umaintree.lfm"/>
+        <HasResources Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="16" Y="10"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit30>
     </Units>
-    <JumpHistory Count="29" HistoryIndex="28">
+    <JumpHistory Count="27" HistoryIndex="26">
       <Position1>
         <Filename Value="usbview.lpr"/>
-        <Caret Line="8" Column="5" TopLine="1"/>
+        <Caret Line="8" Column="5"/>
       </Position1>
       <Position2>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="151" Column="1" TopLine="138"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="94" TopLine="81"/>
       </Position2>
       <Position3>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="12" Column="1" TopLine="1"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="95" TopLine="82"/>
       </Position3>
       <Position4>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="13" Column="1" TopLine="1"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="96" TopLine="83"/>
       </Position4>
       <Position5>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="14" Column="1" TopLine="1"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="98" TopLine="85"/>
       </Position5>
       <Position6>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="15" Column="1" TopLine="2"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="99" TopLine="86"/>
       </Position6>
       <Position7>
-        <Filename Value="uusblibusbimplementation.inc"/>
-        <Caret Line="152" Column="1" TopLine="139"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="100" TopLine="87"/>
       </Position7>
       <Position8>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="94" Column="1" TopLine="81"/>
+        <Caret Line="101" TopLine="88"/>
       </Position8>
       <Position9>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="95" Column="1" TopLine="82"/>
+        <Caret Line="102" TopLine="89"/>
       </Position9>
       <Position10>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="96" Column="1" TopLine="83"/>
+        <Caret Line="103" TopLine="90"/>
       </Position10>
       <Position11>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="98" Column="1" TopLine="85"/>
+        <Caret Line="104" TopLine="91"/>
       </Position11>
       <Position12>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="99" Column="1" TopLine="86"/>
+        <Caret Line="105" TopLine="92"/>
       </Position12>
       <Position13>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="100" Column="1" TopLine="87"/>
+        <Caret Line="106" TopLine="93"/>
       </Position13>
       <Position14>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="101" Column="1" TopLine="88"/>
+        <Caret Line="98" TopLine="85"/>
       </Position14>
       <Position15>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="102" Column="1" TopLine="89"/>
+        <Caret Line="99" TopLine="86"/>
       </Position15>
       <Position16>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="103" Column="1" TopLine="90"/>
+        <Caret Line="100" TopLine="87"/>
       </Position16>
       <Position17>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="104" Column="1" TopLine="91"/>
+        <Caret Line="101" TopLine="88"/>
       </Position17>
       <Position18>
-        <Filename Value="umaintree.pas"/>
-        <Caret Line="105" Column="1" TopLine="92"/>
+        <Filename Value="lib-usb\uusb.pas"/>
       </Position18>
       <Position19>
-        <Filename Value="umaintree.pas"/>
-        <Caret Line="106" Column="1" TopLine="93"/>
+        <Filename Value="lib-usb\uusb.pas"/>
+        <Caret Line="12" Column="3"/>
       </Position19>
       <Position20>
-        <Filename Value="umaintree.pas"/>
-        <Caret Line="98" Column="1" TopLine="85"/>
+        <Filename Value="lib-usb\uusblibusbimplementation.inc"/>
+        <Caret Line="165" Column="44" TopLine="79"/>
       </Position20>
       <Position21>
-        <Filename Value="umaintree.pas"/>
-        <Caret Line="99" Column="1" TopLine="86"/>
+        <Filename Value="lib-usb\uusb.pas"/>
+        <Caret Line="140" Column="14" TopLine="120"/>
       </Position21>
       <Position22>
-        <Filename Value="umaintree.pas"/>
-        <Caret Line="100" Column="1" TopLine="87"/>
+        <Filename Value="lib-usb\uusb.pas"/>
+        <Caret Line="173" Column="18" TopLine="151"/>
       </Position22>
       <Position23>
         <Filename Value="umaintree.pas"/>
-        <Caret Line="101" Column="1" TopLine="88"/>
+        <Caret Line="135" Column="32"/>
       </Position23>
       <Position24>
-        <Filename Value="uusb.pas"/>
-        <Caret Line="120" Column="101" TopLine="106"/>
+        <Filename Value="lib-usb\uusb.pas"/>
+        <Caret Line="173" Column="18" TopLine="151"/>
       </Position24>
       <Position25>
-        <Filename Value="uusbwinimplementation.inc"/>
-        <Caret Line="442" Column="1" TopLine="49"/>
+        <Filename Value="lib-usb\uusblibusbimplementation.inc"/>
+        <Caret Line="150" TopLine="139"/>
       </Position25>
       <Position26>
-        <Filename Value="uusbwinimplementation.inc"/>
-        <Caret Line="456" Column="14" TopLine="442"/>
+        <Filename Value="umaintree.pas"/>
+        <Caret Line="9" Column="33"/>
       </Position26>
       <Position27>
-        <Filename Value="uusbwinimplementation.inc"/>
-        <Caret Line="325" Column="3" TopLine="316"/>
+        <Filename Value="usbview.lpr"/>
+        <Caret Line="8" Column="5"/>
       </Position27>
-      <Position28>
-        <Filename Value="uusb.pas"/>
-        <Caret Line="93" Column="24" TopLine="81"/>
-      </Position28>
-      <Position29>
-        <Filename Value="uusb.pas"/>
-        <Caret Line="132" Column="1" TopLine="120"/>
-      </Position29>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
-    <Version Value="8"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <SearchPaths>
-      <IncludeFiles Value="$(ProjOutDir)\"/>
-      <OtherUnitFiles Value="Neuer Ordner\"/>
+      <IncludeFiles Value="$(ProjOutDir)"/>
     </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
     <Linking>
       <Options>
         <Win32>
@@ -376,9 +375,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
